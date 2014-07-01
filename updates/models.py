@@ -41,11 +41,6 @@ class UpdateItem(models.Model):
 
 
 class UpdatesPlugin(CMSPlugin):
-    NUMBER_CHOICES = (
-        (5, 5),
-        (10, 10),
-        (25, 25),
-        (100, 100),
-    )
     number_to_show = models.IntegerField(
-        max_length=10, choices=NUMBER_CHOICES)
+        max_length=10,)
+
