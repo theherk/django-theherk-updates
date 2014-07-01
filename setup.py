@@ -7,13 +7,13 @@ def read(fname):
 
 setup(
     name='django-theherk-updates',
-    version='1.2',
+    version='1.3.0',
     packages=find_packages(),
     include_package_data=True,
     license='see file LICENSE',
     description='Django app for tracking and displaying updates.',
     long_description=read('README.md'),
-    url='https://github.com/theherk/django-theherk-updates',
+    url='https://github.com/theherk/django-theherk-updates/archive/1.3.0.zip',
     author='Adam Sherwood',
     author_email='theherk@gmail.com',
     classifiers=[
