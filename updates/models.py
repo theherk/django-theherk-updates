@@ -9,8 +9,8 @@ class Update(models.Model):
     """
     date = models.DateField(_('Update Date'))
 
-    def __unicode__(self):
-        return unicode(self.date)
+    def __str__(self):
+        return str(self.date)
 
     class Meta:
         verbose_name = 'update'
@@ -31,7 +31,7 @@ class UpdateItem(models.Model):
         blank=True
     )
 
-    def __unicode__(self):
+    def __str__(self):
         return self.item
 
     class Meta:
